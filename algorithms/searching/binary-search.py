@@ -12,8 +12,6 @@ def binary_seacrh(list , target):
 
     return False
 
-print(binary_seacrh([5,7,7,8,8,10] , 8))    
-
 # recursive binary search
 
 def recursive_binary_search(list , target):
@@ -26,7 +24,3 @@ def recursive_binary_search(list , target):
         return recursive_binary_search(list[mid+1:] , target)
     else:
         return recursive_binary_search(list[:mid] , target)        
-
-# testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42]
-# print(recursive_binary_search(testlist, 3))
-# print(recursive_binary_search(testlist, 13))
