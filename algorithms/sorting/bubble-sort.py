@@ -15,4 +15,4 @@ def smart_bubble_sort(alist):
                 exchanges = True     
 
         if not exchanges:
-            break            
+            break
